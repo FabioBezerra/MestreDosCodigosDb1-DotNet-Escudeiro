@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Escudeiro.TrabalhandoNoConsole.Questoes;
+using System;
 
 namespace Escudeiro.TrabalhandoNoConsole
 {
@@ -6,7 +7,8 @@ namespace Escudeiro.TrabalhandoNoConsole
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var primeira = new Primeira();
+            primeira.Processar();
         }
     }
 }
